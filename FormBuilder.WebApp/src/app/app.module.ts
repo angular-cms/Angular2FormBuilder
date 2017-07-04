@@ -36,12 +36,12 @@ import {
         MaterialModule,
         StoreModule.provideStore(state.reducer),
         ...AppEffectModules,
-        HomeComponent,
         AppRoutingModule,
         PipeModule.forRoot()
     ],
     declarations: [
         AppComponent,
+        HomeComponent,
         PageNotFoundComponent,
         ErrorDialogComponent
     ],
